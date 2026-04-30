@@ -1,0 +1,16 @@
+# Object Detection Lab — Configuration
+
+model:
+  name: yolov8n          # yolov8n (fastest), yolov8s, yolov8m, yolov8l, yolov8x
+  device: auto           # auto | cpu | cuda
+
+detection:
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+
+visualization:
+  box_color: "#00D4FF"
+  line_thickness: 2
+  font_scale: 0.55
+  show_confidence: true
+  show_labels: true
